@@ -1,0 +1,18 @@
+item,phase,component,candidate_part_number,qty,unit_price_thb_min_EST,unit_price_thb_max_EST,status,notes
+1,1,Mini-ITX motherboard LGA1700,TBD (H610I/B760I DDR4),1,3500,7000,TBD,Check DDR generation; Above 4G decoding; rear USB-C preferred
+2,1,CPU,Intel Core i5-12400 or i5-13400 (non-F),1,4000,7000,Candidate,Non-F so iGPU drives display; NVIDIA GPU reserved for compute
+3,1,RAM 32GB (2x16),TBD per motherboard QVL,1,2500,7000,TBD,DRAM pricing volatile
+4,1,NVMe SSD 1TB,TBD,1,1800,3500,TBD,M.2 2280 NVMe
+5,1,NVIDIA GPU,RTX 3060 12GB (or existing GPU),1,6000,9000,Candidate,Used-market estimate; verify TGP and connector
+6,1,PSU 650W 80+ Gold ATX 3.x,TBD,1,2500,4500,TBD,Native GPU connector required; no low-quality adapters
+7,1,CPU cooler low-profile,TBD,1,500,1500,TBD,Verify height clearance
+8,1,Open-frame test bench,TBD,1,800,2000,TBD,V1 only; closed enclosure in Phase 4
+9,1,USB-C to USB-C cable USB 3.2 Gen1+ 3A,TBD,2,300,800,TBD,
+10,1,AC plug-in power meter,TBD,1,400,1000,TBD,Whole-system power measurement in V1
+11,2,FPGA dev board,Digilent Arty A7-35T or Basys 3 (XC7A35T),1,5500,8000,Candidate,0 THB if borrowed from university
+12,2,USB to SPI/I2C bridge,FTDI FT232H breakout,1,500,900,Candidate,x86 board has no exposed SPI/I2C
+13,2,Temperature sensor breakout,TI TMP117,3,300,600,Candidate,I2C
+14,2,Power monitor breakout,TI INA228 (or INA226),2,300,700,Candidate,I2C; aux rails only in Phase 2
+15,2,4-pin PWM case fan 120mm,TBD,3,200,500,TBD,25 kHz PWM open-drain drive
+16,2,Logic analyzer 8ch >=24MHz,TBD,1,300,4000,TBD,SPI/I2C debugging
+17,2,Digital multimeter,TBD,1,500,2000,TBD,Skip if already owned
